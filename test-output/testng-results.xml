@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="7" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Url successfully open]]>
+    </line>
+    <line>
+      <![CDATA[Chorm maximiz succesfully ]]>
+    </line>
+    <line>
+      <![CDATA[Title has been compaire successfully-----]]>
+    </line>
+    <line>
+      <![CDATA[Url successfully open]]>
+    </line>
+    <line>
+      <![CDATA[Chorm maximiz succesfully ]]>
+    </line>
+    <line>
+      <![CDATA[click on Nimbus Login Button----- ]]>
+    </line>
+    <line>
+      <![CDATA[logout successfully ]]>
+    </line>
+    <line>
+      <![CDATA[click on Nimbus Login Button----- ]]>
+    </line>
+    <line>
+      <![CDATA[click on Nimbus Login Button----- ]]>
+    </line>
+    <line>
+      <![CDATA[Item update Successfully ]]>
+    </line>
+    <line>
+      <![CDATA[click on Nimbus Login Button----- ]]>
+    </line>
+    <line>
+      <![CDATA[Newley Defined item Delete Successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-22T16:02:49 PKT" name="Suite" finished-at="2022-06-22T16:14:04 PKT" duration-ms="674549">
+    <groups>
+    </groups>
+    <test started-at="2022-06-22T16:02:49 PKT" name="Test" finished-at="2022-06-22T16:14:04 PKT" duration-ms="674549">
+      <class name="Nimbus.Demotest.Tsetcase1">
+        <test-method is-config="true" signature="StratReport()[pri:0, instance:Nimbus.Demotest.Tsetcase1@651aed93]" started-at="2022-06-22T16:02:49 PKT" name="StratReport" finished-at="2022-06-22T16:02:49 PKT" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StratReport -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Nimbus.Demotest.Tsetcase1@651aed93]" started-at="2022-06-22T16:02:50 PKT" name="Setup" finished-at="2022-06-22T16:03:00 PKT" duration-ms="10102" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Url successfully open]]>
+            </line>
+            <line>
+              <![CDATA[Chorm maximiz succesfully ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Verfy_Nimbus_page_Title()[pri:0, instance:Nimbus.Demotest.Tsetcase1@651aed93]" started-at="2022-06-22T16:03:00 PKT" name="Verfy_Nimbus_page_Title" finished-at="2022-06-22T16:03:01 PKT" duration-ms="1052" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title has been compaire successfully-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verfy_Nimbus_page_Title -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:Nimbus.Demotest.Tsetcase1@651aed93]" started-at="2022-06-22T16:03:01 PKT" name="Quit" finished-at="2022-06-22T16:03:01 PKT" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+        <test-method is-config="true" signature="getresult(org.testng.ITestResult)[pri:0, instance:Nimbus.Demotest.Tsetcase1@651aed93]" started-at="2022-06-22T16:03:01 PKT" name="getresult" finished-at="2022-06-22T16:03:01 PKT" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verfy_Nimbus_page_Title status=SUCCESS method=Tsetcase1.Verfy_Nimbus_page_Title()[pri:0, instance:Nimbus.Demotest.Tsetcase1@651aed93] output=Title has been compaire successfully-----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresult -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Nimbus.Demotest.Tsetcase1@651aed93]" started-at="2022-06-22T16:03:01 PKT" name="Setup" finished-at="2022-06-22T16:03:08 PKT" duration-ms="6152" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Url successfully open]]>
+            </line>
+            <line>
+              <![CDATA[Chorm maximiz succesfully ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Verfy_login_Nimbus()[pri:0, instance:Nimbus.Demotest.Tsetcase1@651aed93]" started-at="2022-06-22T16:03:08 PKT" name="Verfy_login_Nimbus" finished-at="2022-06-22T16:04:33 PKT" duration-ms="85338" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[click on Nimbus Login Button----- ]]>
+            </line>
+            <line>
+              <![CDATA[logout successfully ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verfy_login_Nimbus -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:Nimbus.Demotest.Tsetcase1@651aed93]" started-at="2022-06-22T16:04:33 PKT" name="Quit" finished-at="2022-06-22T16:04:34 PKT" duration-ms="1100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+        <test-method is-config="true" signature="getresult(org.testng.ITestResult)[pri:0, instance:Nimbus.Demotest.Tsetcase1@651aed93]" started-at="2022-06-22T16:04:34 PKT" name="getresult" finished-at="2022-06-22T16:04:34 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verfy_login_Nimbus status=SUCCESS method=Tsetcase1.Verfy_login_Nimbus()[pri:0, instance:Nimbus.Demotest.Tsetcase1@651aed93] output=click on Nimbus Login Button----- ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresult -->
+        <test-method is-config="true" signature="Teadown()[pri:0, instance:Nimbus.Demotest.Tsetcase1@651aed93]" started-at="2022-06-22T16:14:04 PKT" name="Teadown" finished-at="2022-06-22T16:14:05 PKT" duration-ms="1384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teadown -->
+      </class> <!-- Nimbus.Demotest.Tsetcase1 -->
+      <class name="Nimbus.Demotest.Item_Def">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Nimbus.Demotest.Item_Def@5d43661b]" started-at="2022-06-22T16:04:34 PKT" name="Setup" finished-at="2022-06-22T16:05:51 PKT" duration-ms="76861" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[click on Nimbus Login Button----- ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Verify_to_Define_new_item()[pri:1, instance:Nimbus.Demotest.Item_Def@5d43661b]" started-at="2022-06-22T16:05:51 PKT" name="Verify_to_Define_new_item" finished-at="2022-06-22T16:08:06 PKT" duration-ms="134934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_to_Define_new_item -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:Nimbus.Demotest.Item_Def@5d43661b]" started-at="2022-06-22T16:08:06 PKT" name="Quit" finished-at="2022-06-22T16:08:07 PKT" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+        <test-method is-config="true" signature="getresult(org.testng.ITestResult)[pri:0, instance:Nimbus.Demotest.Item_Def@5d43661b]" started-at="2022-06-22T16:08:07 PKT" name="getresult" finished-at="2022-06-22T16:08:07 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_to_Define_new_item status=SUCCESS method=Item_Def.Verify_to_Define_new_item()[pri:1, instance:Nimbus.Demotest.Item_Def@5d43661b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresult -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Nimbus.Demotest.Item_Def@5d43661b]" started-at="2022-06-22T16:08:07 PKT" name="Setup" finished-at="2022-06-22T16:09:20 PKT" duration-ms="73189" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[click on Nimbus Login Button----- ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Verify_to_Update_newley_Defined_item()[pri:2, instance:Nimbus.Demotest.Item_Def@5d43661b]" started-at="2022-06-22T16:09:20 PKT" name="Verify_to_Update_newley_Defined_item" finished-at="2022-06-22T16:11:04 PKT" duration-ms="104039" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Item update Successfully ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_to_Update_newley_Defined_item -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:Nimbus.Demotest.Item_Def@5d43661b]" started-at="2022-06-22T16:11:04 PKT" name="Quit" finished-at="2022-06-22T16:11:05 PKT" duration-ms="1037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+        <test-method is-config="true" signature="getresult(org.testng.ITestResult)[pri:0, instance:Nimbus.Demotest.Item_Def@5d43661b]" started-at="2022-06-22T16:11:05 PKT" name="getresult" finished-at="2022-06-22T16:11:05 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_to_Update_newley_Defined_item status=SUCCESS method=Item_Def.Verify_to_Update_newley_Defined_item()[pri:2, instance:Nimbus.Demotest.Item_Def@5d43661b] output=Item update Successfully ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresult -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Nimbus.Demotest.Item_Def@5d43661b]" started-at="2022-06-22T16:11:05 PKT" name="Setup" finished-at="2022-06-22T16:12:17 PKT" duration-ms="72197" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[click on Nimbus Login Button----- ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Verify_to_Delete_newley_Defined_item()[pri:3, instance:Nimbus.Demotest.Item_Def@5d43661b]" started-at="2022-06-22T16:12:17 PKT" name="Verify_to_Delete_newley_Defined_item" finished-at="2022-06-22T16:14:04 PKT" duration-ms="106408" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Newley Defined item Delete Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_to_Delete_newley_Defined_item -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:Nimbus.Demotest.Item_Def@5d43661b]" started-at="2022-06-22T16:14:04 PKT" name="Quit" finished-at="2022-06-22T16:14:04 PKT" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+        <test-method is-config="true" signature="getresult(org.testng.ITestResult)[pri:0, instance:Nimbus.Demotest.Item_Def@5d43661b]" started-at="2022-06-22T16:14:04 PKT" name="getresult" finished-at="2022-06-22T16:14:04 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_to_Delete_newley_Defined_item status=SUCCESS method=Item_Def.Verify_to_Delete_newley_Defined_item()[pri:3, instance:Nimbus.Demotest.Item_Def@5d43661b] output=Newley Defined item Delete Successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresult -->
+      </class> <!-- Nimbus.Demotest.Item_Def -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Nimbus.Demotest.Item_Def">
+        <methods>
+          <include name="Verify_to_Delete_newley_Defined_item"/>
+          <include name="Setup"/>
+          <include name="getresult"/>
+          <include name="Quit"/>
+          <include name="StratReport"/>
+          <include name="Teadown"/>
+          <include name="Verify_to_Update_newley_Defined_item"/>
+        </methods>
+      </class> <!-- Nimbus.Demotest.Item_Def -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
