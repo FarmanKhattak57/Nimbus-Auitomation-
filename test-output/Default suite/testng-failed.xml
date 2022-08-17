@@ -3,17 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Nimbus.Demotest.Item_Def">
+      <class name="Nimbus.Demotest.Purchase_order">
         <methods>
-          <include name="Verify_to_Delete_newley_Defined_item"/>
-          <include name="Setup"/>
-          <include name="getresult"/>
           <include name="Quit"/>
-          <include name="StratReport"/>
-          <include name="Teadown"/>
-          <include name="Verify_to_Update_newley_Defined_item"/>
+          <include name="save_po_order"/>
+          <include name="Setup"/>
         </methods>
-      </class> <!-- Nimbus.Demotest.Item_Def -->
+      </class> <!-- Nimbus.Demotest.Purchase_order -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

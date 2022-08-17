@@ -3,9 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Nimbus.Demotest.AppTest"/>
-      <class name="Nimbus.Demotest.Tsetcase1"/>
-      <class name="Nimbus.Demotest.Item_Def"/>
+     
+      <class name="Nimbus.Demotest.Purchase_order"/>
+
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
