@@ -85,11 +85,12 @@ public class Purchase_order {
 				driver.findElement(By.linkText("Purchase Order")).click();
 				
 				try {
-					Thread.sleep(5000);
+					Thread.sleep(4000);
 				} catch (InterruptedException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
+				
 				
 				
 		  
