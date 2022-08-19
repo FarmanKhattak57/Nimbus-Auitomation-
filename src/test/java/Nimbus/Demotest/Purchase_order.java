@@ -39,7 +39,7 @@ public class Purchase_order {
 	    driver.findElement(By.id("UserName")).sendKeys("farman@lumensoft.biz");
 	    Thread.sleep(2000);
 	    driver.findElement(By.id("Password")).sendKeys("12345");
-	    Thread.sleep(2000);
+	    Thread.sleep(3000);
 	    driver.findElement(By.cssSelector("#submit_form > div > div.login_body > div:nth-child(6) > button")).click();
 	    Thread.sleep(30000);
 		
@@ -85,7 +85,7 @@ public class Purchase_order {
 				driver.findElement(By.linkText("Purchase Order")).click();
 				
 				try {
-					Thread.sleep(5000);
+					Thread.sleep(3000);
 				} catch (InterruptedException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
