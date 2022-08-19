@@ -78,14 +78,14 @@ public class Purchase_order {
 		}
 		  driver.findElement(By.linkText("Purchase")).click();
 		  try {
-				Thread.sleep(3000);
+				Thread.sleep(5000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 				driver.findElement(By.linkText("Purchase Order")).click();
 				
 				try {
-					Thread.sleep(4000);
+					Thread.sleep(5000);
 				} catch (InterruptedException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
