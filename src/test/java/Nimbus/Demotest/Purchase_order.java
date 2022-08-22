@@ -31,9 +31,9 @@ public class Purchase_order {
 	    js.executeScript("window.scrollBy(0,1000)","");
 	    
 	    
-	    Thread.sleep(3000);
+	    Thread.sleep(4000);
 	    driver.findElement(By.cssSelector("#menu-item-8089 > a")).click();
-	    Thread.sleep(3000);
+	    Thread.sleep(4000);
 	    driver.findElement(By.id("CompanyName")).sendKeys("Ls_Farman_Automastion");
 	    Thread.sleep(2000);
 	    driver.findElement(By.id("UserName")).sendKeys("farman@lumensoft.biz");
